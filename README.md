@@ -1,4 +1,4 @@
-# Azure-AD-Typescript-Vue
+# Azure-AD-Backend & Client
 Example Azure  Active Directory login Oauth2 passport Typescrit backend with cleint in Vue.js
 
 Install modules and dependencies
