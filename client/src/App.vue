@@ -12,10 +12,20 @@
         Logout
       </v-btn>
     </v-toolbar>
-    <v-content>
-      <v-layout v-if="logged">
-          {{user}}
+    <v-content  v-if="logged">
+      <v-layout class="text-xs-center">
         <v-flex>
+          <h1>YOU ARE LOGIN CONGRATULATIONS</h1>
+        </v-flex>
+      </v-layout>
+      <v-layout class="text-xs-center">
+        <v-flex pa5 ma5>
+          <h2>{{user.displayName}}</h2>
+        </v-flex>
+      </v-layout>
+      <v-layout class="text-xs-center">
+        <v-flex pa5 ma5>
+          <h2>{{user._json.email}}</h2>
         </v-flex>
       </v-layout>
     </v-content>
