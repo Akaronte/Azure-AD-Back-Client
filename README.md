@@ -17,7 +17,7 @@ Grant tokens id to aplication
 
 create a .env with a config parameters in backend
 
-You nett a TENANT, CLIENT_APP_ID, and create a CLIENT_SECRET
+You need a TENANT, CLIENT_APP_ID, and create a CLIENT_SECRET
 
 Start the backend server
 
@@ -29,4 +29,4 @@ Start the front server
 ```
 npm run serve
 ```
-https://youtu.be/RBFFKZdkm2I
+[Example Video]https://youtu.be/RBFFKZdkm2I
