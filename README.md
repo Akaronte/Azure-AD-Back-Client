@@ -11,7 +11,9 @@ npm i
 ```
 You need a register app in azure active directory and create a secret of aplicacion.
 
-Config the url reply to localhost:3000, this is the backend
+Config the url reply to localhost:3000/signin, this is the backend
+
+Grant tokens id to aplication
 
 create a .env with a config parameters in backend
 
